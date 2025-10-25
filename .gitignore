@@ -1,0 +1,33 @@
+# Node modules folder (dependencies)
+node_modules/
+
+# Build output
+dist/
+build/
+
+test.txt.txt
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+temp/
+*.tmp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# IDE / Editor files
+.vscode/
+.idea/
+
+# Coverage / test reports
+coverage/
+
+# Cache files
+.cache/
