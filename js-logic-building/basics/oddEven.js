@@ -1,4 +1,4 @@
-// odd even 
+// odd even ...................
 // case 1 
 // function oddEven(num){
 //     if(num % 2 === 0){
@@ -16,3 +16,5 @@
 //     return "even";
 // }
 // console.log(oddEven(21));
+
+
