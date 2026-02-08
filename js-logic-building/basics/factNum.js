@@ -9,10 +9,7 @@ function factorial(num) {
     }
     return result
 }
-// console.log(factorial(-4));
-
-// using recursion 
-
+ 
 function recursionFun(num) {
     if(num === 0 || num === 1) return 1;
     if (num < 0) throw new Error("not valid number is less then zero ")
