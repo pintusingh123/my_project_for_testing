@@ -1,4 +1,0 @@
-this is my amend page 
-log in add now <i class="fa fa-qq" aria-hidden="true"></i>
-apna 
-this is new line of ammed 
