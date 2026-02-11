@@ -24,7 +24,7 @@ function palindrome(str) {
 
     // }
 
-    // case2 -----2 
+    // case2 -----3
 
     // for (let i = 0; i <= str.length / 2; i++) {
     //     if (str[i] !== str[str.length - 1 - i]) {
