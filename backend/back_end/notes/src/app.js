@@ -36,4 +36,20 @@ let notes = []
     }
  })
 
+ app.patch('/notes/:index', (req, res) =>{
+
+      const index = parseInt(req.params.index);
+      const des = req.body.description;
+      const title = req.body.title;
+
+      if(index >= 0 && index < notes.length){
+         notes[index].description = des
+         notes[index].title = title
+         res.status(200).json({message: "Note updated successfully"})
+      }else{
+         res.status(404).json({message: "Note not found"})
+      }
+
+ })
+
 module.exports = app;
