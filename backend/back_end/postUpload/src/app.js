@@ -27,6 +27,7 @@ app.post("/create-post", upload.single("image"), async (req, res) => {
   res.status(201).json({
     message: "post created now",
     post
+    
   });
 });
 
