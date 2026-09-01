@@ -1,23 +1,20 @@
-function debounce(fn , delay){
-  let timer;
-   
-  return function(...args){
-    clearTimeout(timer);
-    timer = setTimeout(()=>{
-      fn(...args)
-    })
+function debouce(fun, delay){
+  let timerId 
+
+  return function (...args){
+    clearTimeout(timerId)
+
+   timerId = setTimeout(() =>{
+        fun(...args)
+    }, delay)
   }
-
 }
 
-function search(query){
-  console.log("print search", query)
-
+function search(que){
+  console.log(que)
 }
 
-let searchWithDebounce = debounce(search, 500)
+let result = debouce(search, 1000)
 
-searchWithDebounce("h")
-searchWithDebounce("ha")
-searchWithDebounce("har")
-searchWithDebounce("hard")
+result("a")
+result("ab")
